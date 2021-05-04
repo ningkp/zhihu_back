@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>test</title>
+	<script type="text/javascript" src="js/jquery.js"></script>
+</head>
+<body>
+	<input type="button" name="test" value="test" onclick="testApi()">
+	
+	<script type="text/javascript">
+		window.apiUrl = "http://localhost";
+		function testApi(){
+			var Url = apiUrl+'/Home/LastYearTodayApi/showLastDiary';
+			var data = {
+				// 'email':'1037485798@qq.com',
+				// 'code':'896558',
+				// 'password':'password',
+				// 'name': 'name',
+				// 'imgSrc': 'imgSrc',
+				// 'city': 'city',
+				// 'birth': '1999-7-8',
+				// 'sex': '1',
+				// 'interest': 'interest',
+				// 'dream':'dream',
+				// 'dreamPic': 'dreamPic'
+				/*'token': "3bc05d37782e4c14202fdbf69af72df2",
+				'date':"2017-8-16",
+				'stick':"0",
+				'note':"去家",
+				'noteid':'5'*/
+				// 'token': "b72d0db5036b6c171495fee52c65a0cb",
+				// 'type': "健康-养生-足疗",
+				// 'remark':'5253252'
+
+				'token':"7e92ef35f719edf7143d79d767455689",
+			    // 'uId': "4",
+			    // 'uName': "xuhu",
+			    // 'uImgSrc':"http://192.168.56.1/Img/head/4492ef35f719edf7143d79d767455689.jpg",
+			    // 'content':"geawggggggggewa",
+			    // 'typeId' : "3"
+
+
+				//'passwordpast':"password",
+				//'passwordnew': "gegggge"
+
+			};
+			// userPas = $.nuaaMD5(userPas);
+			
+			$.post(Url, data,function(data, status) {
+			  	console.log(data);
+			  	
+			});
+			
+		}
+	</script>
+</body>
+</html>

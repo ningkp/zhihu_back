@@ -1,0 +1,78 @@
+[ 2019-05-07T17:37:07+08:00 ] ::1 /Home/LogApi/checkPassAndName?login=111&password=111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000234s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000279s ]
+NOTIC: [8] Undefined index: login E:\nkp\wamp64\www\Application\Home\Controller\LogApiController.class.php 第 123 行.
+NOTIC: [8] Undefined index: password E:\nkp\wamp64\www\Application\Home\Controller\LogApiController.class.php 第 124 行.
+ERR: 系統不支援:mysql
+
+[ 2019-05-07T17:37:30+08:00 ] ::1 /Home/LogApi/checkPassAndName?login=111&password=111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000076s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000103s ]
+NOTIC: [8] Undefined index: login E:\nkp\wamp64\www\Application\Home\Controller\LogApiController.class.php 第 123 行.
+NOTIC: [8] Undefined index: password E:\nkp\wamp64\www\Application\Home\Controller\LogApiController.class.php 第 124 行.
+ERR: 系統不支援:mysql
+
+[ 2019-05-07T17:39:29+08:00 ] ::1 /Home/NewsApi/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+ERR: syntax error, unexpected '$data_new' (T_VARIABLE)
+
+[ 2019-05-07T17:39:37+08:00 ] ::1 /Home/NewsApi/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000139s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000244s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+ERR: syntax error, unexpected '$data_new' (T_VARIABLE)
+
+[ 2019-05-07T17:40:06+08:00 ] ::1 /Home/NewsApi/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000211s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000257s ]
+
+[ 2019-05-07T17:40:15+08:00 ] ::1 /Home/LogApi/checkPassAndName?login=111&password=111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000108s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000162s ]
+NOTIC: [8] Undefined index: login E:\nkp\wamp64\www\Application\Home\Controller\LogApiController.class.php 第 123 行.
+NOTIC: [8] Undefined index: password E:\nkp\wamp64\www\Application\Home\Controller\LogApiController.class.php 第 124 行.
+ERR: 系統不支援:mysql
+
+[ 2019-05-07T17:42:41+08:00 ] ::1 /Home/LogApi/checkPassAndName?login=111&password=111
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001135s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+NOTIC: [8] Undefined index: login E:\nkp\wamp64\www\Application\Home\Controller\LogApiController.class.php 第 123 行.
+NOTIC: [8] Undefined index: password E:\nkp\wamp64\www\Application\Home\Controller\LogApiController.class.php 第 124 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.003323s ]
+SQL: SELECT * FROM `tp_user` WHERE `uName` = null ORDER BY uId LIMIT 1   [ RunTime:0.000343s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000706s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000811s ]
+

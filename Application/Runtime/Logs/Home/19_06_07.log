@@ -1,0 +1,411 @@
+[ 2019-06-07T16:32:16+08:00 ] ::1 /Home/NewsApi/receiveNews
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000590s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001637s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001757s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000657s ]
+SQL: SELECT * FROM `tp_user` WHERE `uToken` = '8066b8ddba4bd2538febd6a0b39b9887' ORDER BY uToken LIMIT 1   [ RunTime:0.000203s ]
+SQL: SHOW COLUMNS FROM `tp_news_list` [ RunTime:0.000442s ]
+NOTIC: [8] Undefined variable: Model E:\nkp\wamp64\www\Application\Home\Controller\NewsApiController.class.php 第 124 行.
+
+[ 2019-06-07T16:32:53+08:00 ] ::1 /Home/NewsApi/receiveNews
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000784s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+
+[ 2019-06-07T16:33:08+08:00 ] ::1 /Home/NewsApi/receiveNews
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001330s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000557s ]
+SQL: SELECT * FROM `tp_user` WHERE `uToken` = '8066b8ddba4bd2538febd6a0b39b9887' ORDER BY uToken LIMIT 1   [ RunTime:0.000225s ]
+SQL: select * from tp_news_list left join tp_user on tp_news_list.sendId=tp_user.uId [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000800s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000893s ]
+
+[ 2019-06-07T16:35:24+08:00 ] ::1 /Home/NewsApi/receiveNews
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000423s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000686s ]
+SQL: SELECT * FROM `tp_user` WHERE `uToken` = '8066b8ddba4bd2538febd6a0b39b9887' ORDER BY uToken LIMIT 1   [ RunTime:0.000335s ]
+SQL: select * from tp_news_list as a left join tp_user as b on a.sendId=b.uId [ RunTime:0.000239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000800s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000894s ]
+
+[ 2019-06-07T16:37:08+08:00 ] ::1 /Home/NewsApi/receiveNews
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000628s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000671s ]
+SQL: SELECT * FROM `tp_user` WHERE `uToken` = '8066b8ddba4bd2538febd6a0b39b9887' ORDER BY uToken LIMIT 1   [ RunTime:0.000212s ]
+SQL: select * from tp_news_list as a left join tp_user as b on a.sendId=b.uId where a.receiveId=10 [ RunTime:0.000268s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000714s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000799s ]
+
+[ 2019-06-07T16:42:40+08:00 ] ::1 /Home/NewsApi/receiveNews
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000622s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000807s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000912s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000596s ]
+SQL: SELECT * FROM `tp_user` WHERE `uToken` = '8066b8ddba4bd2538febd6a0b39b9887' ORDER BY uToken LIMIT 1   [ RunTime:0.000222s ]
+SQL: select a.id,a.sendId,a.receiveId,a.content,a.isRead,a.time,b.uId,b.uName,b.uImgSrc from tp_news_list as a left join tp_user as b on a.sendId=b.uId where a.receiveId=10 [ RunTime:0.000251s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000940s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001030s ]
+
+[ 2019-06-07T16:45:01+08:00 ] ::1 /Home/NewsApi/receiveNews
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000812s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000608s ]
+SQL: SELECT * FROM `tp_user` WHERE `uToken` = '8066b8ddba4bd2538febd6a0b39b9887' ORDER BY uToken LIMIT 1   [ RunTime:0.000215s ]
+SQL: select a.id,a.sendId,a.receiveId,a.content,a.isRead,a.time,b.uId,b.uName,b.uImgSrc from tp_news_list as a left join tp_user as b on a.sendId=b.uId where a.receiveId=10 [ RunTime:0.000231s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000849s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000929s ]
+
+[ 2019-06-07T16:45:43+08:00 ] ::1 /Home/NewsApi/receiveNews
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000708s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000795s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000564s ]
+SQL: SELECT * FROM `tp_user` WHERE `uToken` = '8066b8ddba4bd2538febd6a0b39b9887' ORDER BY uToken LIMIT 1   [ RunTime:0.000251s ]
+SQL: select a.id,a.sendId,a.receiveId,a.content,a.isRead,a.time,b.uId,b.uName,b.uImgSrc from tp_news_list as a left join tp_user as b on a.sendId=b.uId where a.receiveId=10 [ RunTime:0.000245s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000813s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000893s ]
+
+[ 2019-06-07T16:47:17+08:00 ] ::1 /Home/LogApi/checkNameandMail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000581s ]
+SQL: SELECT * FROM `tp_user` WHERE `uName` = 'typ' ORDER BY uId LIMIT 1   [ RunTime:0.000242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000854s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000937s ]
+
+[ 2019-06-07T16:47:20+08:00 ] ::1 /Home/LogApi/checkPassAndName
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000411s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000852s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000968s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000459s ]
+SQL: SELECT * FROM `tp_user` WHERE `uName` = 'typ' ORDER BY uId LIMIT 1   [ RunTime:0.000204s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000881s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000965s ]
+
+[ 2019-06-07T16:47:20+08:00 ] ::1 /Home/UserApi/getUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000743s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000608s ]
+SQL: SELECT * FROM `tp_user` WHERE `uToken` = '8066b8ddba4bd2538febd6a0b39b9887' ORDER BY uToken LIMIT 1   [ RunTime:0.000300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001112s ]
+
+[ 2019-06-07T16:47:26+08:00 ] ::1 /Home/ProjectApi/getMyProjects
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000550s ]
+SQL: SELECT * FROM `tp_user` WHERE `uToken` = '8066b8ddba4bd2538febd6a0b39b9887' ORDER BY uToken LIMIT 1   [ RunTime:0.000313s ]
+SQL: SHOW COLUMNS FROM `tp_project_list` [ RunTime:0.000654s ]
+SQL: SELECT * FROM `tp_project_list` WHERE `uId` = 10 ORDER BY uJoinTime desc  [ RunTime:0.000353s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000967s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001078s ]
+
+[ 2019-06-07T16:47:28+08:00 ] ::1 /Home/ProjectApi/getMyProjects
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000740s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000437s ]
+SQL: SELECT * FROM `tp_user` WHERE `uToken` = '8066b8ddba4bd2538febd6a0b39b9887' ORDER BY uToken LIMIT 1   [ RunTime:0.000178s ]
+SQL: SHOW COLUMNS FROM `tp_project_list` [ RunTime:0.000501s ]
+SQL: SELECT * FROM `tp_project_list` WHERE `uId` = 10 AND `isCreater` = 1 ORDER BY uJoinTime desc  [ RunTime:0.000212s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000854s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000939s ]
+
+[ 2019-06-07T16:47:29+08:00 ] ::1 /Home/ProjectApi/getMyProjects
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000405s ]
+SQL: SELECT * FROM `tp_user` WHERE `uToken` = '8066b8ddba4bd2538febd6a0b39b9887' ORDER BY uToken LIMIT 1   [ RunTime:0.000164s ]
+SQL: SHOW COLUMNS FROM `tp_project_list` [ RunTime:0.000370s ]
+SQL: SELECT * FROM `tp_project_list` WHERE `uId` = 10 ORDER BY uJoinTime desc  [ RunTime:0.000143s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000834s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000917s ]
+
+[ 2019-06-07T16:47:29+08:00 ] ::1 /Home/ProjectApi/getProjectDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000930s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000435s ]
+SQL: SELECT * FROM `tp_user` WHERE `uToken` = '8066b8ddba4bd2538febd6a0b39b9887' ORDER BY uToken LIMIT 1   [ RunTime:0.000182s ]
+SQL: SHOW COLUMNS FROM `tp_project_info` [ RunTime:0.000421s ]
+SQL: SELECT * FROM `tp_project_info` WHERE `pId` = 9 ORDER BY pId LIMIT 1   [ RunTime:0.000170s ]
+SQL: SELECT * FROM `tp_user` WHERE `uId` = 9 ORDER BY uId LIMIT 1   [ RunTime:0.000120s ]
+SQL: SHOW COLUMNS FROM `tp_project_list` [ RunTime:0.000330s ]
+SQL: SELECT * FROM `tp_project_list` WHERE `pId` = 9 AND `uId` = 10 ORDER BY pId LIMIT 1   [ RunTime:0.000137s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000818s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000901s ]
+
+[ 2019-06-07T16:47:32+08:00 ] ::1 /Home/UserApi/getOthersInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000532s ]
+SQL: SELECT * FROM `tp_user` WHERE `uId` = 9 ORDER BY uId LIMIT 1   [ RunTime:0.000189s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000887s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000984s ]
+
+[ 2019-06-07T16:47:36+08:00 ] ::1 /Home/ProjectApi/getProjectDetail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000780s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000884s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000450s ]
+SQL: SELECT * FROM `tp_user` WHERE `uToken` = '8066b8ddba4bd2538febd6a0b39b9887' ORDER BY uToken LIMIT 1   [ RunTime:0.000226s ]
+SQL: SHOW COLUMNS FROM `tp_project_info` [ RunTime:0.000531s ]
+SQL: SELECT * FROM `tp_project_info` WHERE `pId` = 9 ORDER BY pId LIMIT 1   [ RunTime:0.000188s ]
+SQL: SELECT * FROM `tp_user` WHERE `uId` = 9 ORDER BY uId LIMIT 1   [ RunTime:0.000187s ]
+SQL: SHOW COLUMNS FROM `tp_project_list` [ RunTime:0.000472s ]
+SQL: SELECT * FROM `tp_project_list` WHERE `pId` = 9 AND `uId` = 10 ORDER BY pId LIMIT 1   [ RunTime:0.000192s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000909s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2019-06-07T16:47:38+08:00 ] ::1 /Home/UserApi/getOthersInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000825s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000470s ]
+SQL: SELECT * FROM `tp_user` WHERE `uId` = 9 ORDER BY uId LIMIT 1   [ RunTime:0.000209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000860s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000955s ]
+
+[ 2019-06-07T16:47:58+08:00 ] ::1 /Home/NewsApi/receiveNews
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000881s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000414s ]
+SQL: SELECT * FROM `tp_user` WHERE `uToken` = '8066b8ddba4bd2538febd6a0b39b9887' ORDER BY uToken LIMIT 1   [ RunTime:0.000178s ]
+SQL: select a.id,a.sendId,a.receiveId,a.content,a.isRead,a.time,b.uId,b.uName,b.uImgSrc from tp_news_list as a left join tp_user as b on a.sendId=b.uId where a.receiveId=10 [ RunTime:0.000170s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000836s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001005s ]
+
+[ 2019-06-07T16:48:07+08:00 ] ::1 /Home/LogApi/checkNameandMail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000734s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000513s ]
+SQL: SELECT * FROM `tp_user` WHERE `uName` = 'kid' ORDER BY uId LIMIT 1   [ RunTime:0.000270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000851s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000933s ]
+
+[ 2019-06-07T16:48:10+08:00 ] ::1 /Home/LogApi/checkPassAndName
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000759s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000547s ]
+SQL: SELECT * FROM `tp_user` WHERE `uName` = 'kid' ORDER BY uId LIMIT 1   [ RunTime:0.000257s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003817s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003902s ]
+
+[ 2019-06-07T16:48:10+08:00 ] ::1 /Home/UserApi/getUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000452s ]
+SQL: SELECT * FROM `tp_user` WHERE `uToken` = '7e92ef35f719edf7143d79d767455689' ORDER BY uToken LIMIT 1   [ RunTime:0.000222s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001110s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001223s ]
+
+[ 2019-06-07T16:48:16+08:00 ] ::1 /Home/NewsApi/receiveNews
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000746s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000835s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000447s ]
+SQL: SELECT * FROM `tp_user` WHERE `uToken` = '7e92ef35f719edf7143d79d767455689' ORDER BY uToken LIMIT 1   [ RunTime:0.000223s ]
+SQL: select a.id,a.sendId,a.receiveId,a.content,a.isRead,a.time,b.uId,b.uName,b.uImgSrc from tp_news_list as a left join tp_user as b on a.sendId=b.uId where a.receiveId=9 [ RunTime:0.000190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000888s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000974s ]
+
+[ 2019-06-07T16:50:09+08:00 ] ::1 /Home/NewsApi/receiveNews
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000377s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000624s ]
+SQL: SELECT * FROM `tp_user` WHERE `uToken` = '7e92ef35f719edf7143d79d767455689' ORDER BY uToken LIMIT 1   [ RunTime:0.000245s ]
+SQL: select a.id,a.sendId,a.receiveId,a.content,a.isRead,a.time,b.uId,b.uName,b.uImgSrc from tp_news_list as a left join tp_user as b on a.sendId=b.uId where a.receiveId=9 [ RunTime:0.000217s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000970s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001067s ]
+
+[ 2019-06-07T16:50:20+08:00 ] ::1 /Home/LogApi/checkNameandMail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000766s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000853s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000528s ]
+SQL: SELECT * FROM `tp_user` WHERE `uName` = 'typ' ORDER BY uId LIMIT 1   [ RunTime:0.000253s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000837s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000919s ]
+
+[ 2019-06-07T16:50:23+08:00 ] ::1 /Home/LogApi/checkPassAndName
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008861s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008982s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000570s ]
+SQL: SELECT * FROM `tp_user` WHERE `uName` = 'typ' ORDER BY uId LIMIT 1   [ RunTime:0.000307s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001029s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001125s ]
+
+[ 2019-06-07T16:50:24+08:00 ] ::1 /Home/UserApi/getUserInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000797s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000900s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000464s ]
+SQL: SELECT * FROM `tp_user` WHERE `uToken` = '8066b8ddba4bd2538febd6a0b39b9887' ORDER BY uToken LIMIT 1   [ RunTime:0.000185s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000853s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000937s ]
+
+[ 2019-06-07T16:50:31+08:00 ] ::1 /Home/NewsApi/receiveNews
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000895s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000433s ]
+SQL: SELECT * FROM `tp_user` WHERE `uToken` = '8066b8ddba4bd2538febd6a0b39b9887' ORDER BY uToken LIMIT 1   [ RunTime:0.000290s ]
+SQL: select a.id,a.sendId,a.receiveId,a.content,a.isRead,a.time,b.uId,b.uName,b.uImgSrc from tp_news_list as a left join tp_user as b on a.sendId=b.uId where a.receiveId=10 [ RunTime:0.000274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001006s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001098s ]
+

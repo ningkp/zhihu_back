@@ -1,0 +1,617 @@
+[ 2019-06-04T09:40:47+08:00 ] ::1 /Home/ProjectApi/creatProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001041s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000653s ]
+ERR: 錯誤的查詢條件:[token=>7e92ef35f719edf7143d79d767455689]
+
+[ 2019-06-04T09:41:18+08:00 ] ::1 /Home/LogApi/checkNameandMail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000673s ]
+SQL: SELECT * FROM `tp_user` WHERE `uName` = 'kid' ORDER BY uId LIMIT 1   [ RunTime:0.000254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004421s ]
+
+[ 2019-06-04T09:42:46+08:00 ] ::1 /Home/LogApi/checkPassAndName
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000424s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000762s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000681s ]
+SQL: SELECT * FROM `tp_user` WHERE `uName` = 'kid' ORDER BY uId LIMIT 1   [ RunTime:0.000211s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002016s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002100s ]
+
+[ 2019-06-04T09:42:58+08:00 ] ::1 /Home/ProjectApi/creatProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000754s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+
+[ 2019-06-04T09:43:16+08:00 ] ::1 /Home/ProjectApi/creatProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000849s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000810s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000909s ]
+
+[ 2019-06-04T09:43:46+08:00 ] ::1 /Home/ProjectApi/creatProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+
+[ 2019-06-04T09:43:58+08:00 ] ::1 /Home/ProjectApi/creatProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+
+[ 2019-06-04T09:44:06+08:00 ] ::1 /Home/LogApi/checkNameandMail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000951s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000681s ]
+SQL: SELECT * FROM `tp_user` WHERE `uName` = 'kid' ORDER BY uId LIMIT 1   [ RunTime:0.000221s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000841s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000924s ]
+
+[ 2019-06-04T09:44:12+08:00 ] ::1 /Home/LogApi/checkPassAndName
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000792s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000494s ]
+SQL: SELECT * FROM `tp_user` WHERE `uName` = 'kid' ORDER BY uId LIMIT 1   [ RunTime:0.000236s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000869s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000953s ]
+
+[ 2019-06-04T09:44:22+08:00 ] ::1 /Home/ProjectApi/creatProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000858s ]
+
+[ 2019-06-04T09:44:46+08:00 ] ::1 /Home/ProjectApi/creatProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000565s ]
+ERR: 錯誤的查詢條件:[token=>7e92ef35f719edf7143d79d767455689]
+
+[ 2019-06-04T09:45:16+08:00 ] ::1 /Home/ProjectApi/creatProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000932s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000774s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000864s ]
+
+[ 2019-06-04T09:45:45+08:00 ] ::1 /Home/ProjectApi/creatProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000702s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000755s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000841s ]
+
+[ 2019-06-04T09:45:52+08:00 ] ::1 /Home/LogApi/checkNameandMail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000584s ]
+SQL: SELECT * FROM `tp_user` WHERE `uName` = 'kid' ORDER BY uId LIMIT 1   [ RunTime:0.000294s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008480s ]
+
+[ 2019-06-04T09:45:55+08:00 ] ::1 /Home/LogApi/checkPassAndName
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000713s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000480s ]
+SQL: SELECT * FROM `tp_user` WHERE `uName` = 'kid' ORDER BY uId LIMIT 1   [ RunTime:0.000233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000871s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000954s ]
+
+[ 2019-06-04T09:46:04+08:00 ] ::1 /Home/ProjectApi/creatProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000730s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+
+[ 2019-06-04T09:46:24+08:00 ] ::1 /Home/ProjectApi/creatProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000987s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000734s ]
+ERR: 錯誤的查詢條件:[token=>7e92ef35f719edf7143d79d767455689]
+
+[ 2019-06-04T09:46:43+08:00 ] ::1 /Home/ProjectApi/creatProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000818s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000675s ]
+ERR: 錯誤的查詢條件:[token=>7e92ef35f719edf7143d79d767455689]
+
+[ 2019-06-04T09:46:52+08:00 ] ::1 /Home/ProjectApi/creatProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001142s ]
+
+[ 2019-06-04T09:46:56+08:00 ] ::1 /Home/ProjectApi/creatProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000915s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001034s ]
+
+[ 2019-06-04T09:47:07+08:00 ] ::1 /Home/LogApi/checkNameandMail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000736s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000680s ]
+SQL: SELECT * FROM `tp_user` WHERE `uName` = 'kid' ORDER BY uId LIMIT 1   [ RunTime:0.000242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002555s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002637s ]
+
+[ 2019-06-04T09:47:09+08:00 ] ::1 /Home/LogApi/checkPassAndName
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000638s ]
+SQL: SELECT * FROM `tp_user` WHERE `uName` = 'kid' ORDER BY uId LIMIT 1   [ RunTime:0.000239s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.011648s ]
+INFO: [ app_end ] --END-- [ RunTime:0.011744s ]
+
+[ 2019-06-04T09:47:18+08:00 ] ::1 /Home/ProjectApi/creatProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000709s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+
+[ 2019-06-04T09:47:53+08:00 ] ::1 /Home/ProjectApi/creatProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000814s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000909s ]
+
+[ 2019-06-04T09:48:00+08:00 ] ::1 /Home/LogApi/checkNameandMail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000890s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000665s ]
+SQL: SELECT * FROM `tp_user` WHERE `uName` = 'kid' ORDER BY uId LIMIT 1   [ RunTime:0.000230s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003441s ]
+
+[ 2019-06-04T09:48:05+08:00 ] ::1 /Home/LogApi/checkPassAndName
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000758s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000656s ]
+SQL: SELECT * FROM `tp_user` WHERE `uName` = 'kid' ORDER BY uId LIMIT 1   [ RunTime:0.000270s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000867s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000955s ]
+
+[ 2019-06-04T09:48:12+08:00 ] ::1 /Home/ProjectApi/creatProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001052s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000602s ]
+ERR: 錯誤的查詢條件:[token=>7e92ef35f719edf7143d79d767455689]
+
+[ 2019-06-04T09:48:27+08:00 ] ::1 /Home/ProjectApi/creatProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001103s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001221s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000708s ]
+ERR: 錯誤的查詢條件:[token=>7e92ef35f719edf7143d79d767455689]
+
+[ 2019-06-04T09:48:34+08:00 ] ::1 /Home/ProjectApi/creatProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000710s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000800s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000591s ]
+ERR: 錯誤的查詢條件:[token=>7e92ef35f719edf7143d79d767455689]
+
+[ 2019-06-04T09:48:46+08:00 ] ::1 /Home/ProjectApi/creatProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000964s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001082s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000660s ]
+ERR: 錯誤的查詢條件:[token=>7e92ef35f719edf7143d79d767455689]
+
+[ 2019-06-04T09:48:54+08:00 ] ::1 /Home/ProjectApi/creatProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000819s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000524s ]
+ERR: 錯誤的查詢條件:[token=>7e92ef35f719edf7143d79d767455689]
+
+[ 2019-06-04T09:49:07+08:00 ] ::1 /Home/ProjectApi/creatProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000376s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+
+[ 2019-06-04T09:49:16+08:00 ] ::1 /Home/ProjectApi/creatProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000866s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000774s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000861s ]
+
+[ 2019-06-04T09:50:19+08:00 ] ::1 /Home/LogApi/checkNameandMail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000719s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000833s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000618s ]
+SQL: SELECT * FROM `tp_user` WHERE `uName` = 'kid' ORDER BY uId LIMIT 1   [ RunTime:0.000290s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000884s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000968s ]
+
+[ 2019-06-04T09:50:21+08:00 ] ::1 /Home/LogApi/checkPassAndName
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000795s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000574s ]
+SQL: SELECT * FROM `tp_user` WHERE `uName` = 'kid' ORDER BY uId LIMIT 1   [ RunTime:0.000242s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000871s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000960s ]
+
+[ 2019-06-04T09:50:31+08:00 ] ::1 /Home/ProjectApi/creatProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000809s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000483s ]
+SQL: SELECT * FROM `tp_user` WHERE `uToken` = '7e92ef35f719edf7143d79d767455689' ORDER BY uToken LIMIT 1   [ RunTime:0.000233s ]
+SQL: SHOW COLUMNS FROM `tp_project_info` [ RunTime:0.000547s ]
+SQL: INSERT INTO `tp_project_info` (`pName`,`uId`,`pCreatTime`,`pRemark`,`pDataType`,`pSignType`,`pLabelType`,`pFeaMethod`,`pModel`,`pModelParam`,`pMetric`,`pQuery`,`pQueryParam`,`pQuerySpeedSet`,`pLabelStore`,`pProjStatus`,`pNeedTest`,`pIniSet`) VALUES ('1',9,'2019-06-04 09:50:31','','Text Data','Multi class','1','方法1','Regression','','Accuracy','Random','','set 1','csv','-1',0,0) [ RunTime:0.019856s ]
+SQL: SHOW COLUMNS FROM `tp_project_list` [ RunTime:0.000761s ]
+SQL: INSERT INTO `tp_project_list` (`pId`,`pName`,`pRemark`,`uId`,`uName`,`uImgSrc`,`isCreater`,`uJoinTime`) VALUES (1,'1','',9,'kid',null,1,'2019-06-04 09:50:31') [ RunTime:0.000254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000857s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000944s ]
+
+[ 2019-06-04T09:51:15+08:00 ] ::1 /Home/ProjectApi/creatProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000992s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000560s ]
+SQL: SELECT * FROM `tp_user` WHERE `uToken` = 'undefined' ORDER BY uToken LIMIT 1   [ RunTime:0.000201s ]
+SQL: SHOW COLUMNS FROM `tp_project_info` [ RunTime:0.000556s ]
+SQL: INSERT INTO `tp_project_info` (`pName`,`uId`,`pCreatTime`,`pRemark`,`pDataType`,`pSignType`,`pLabelType`,`pFeaMethod`,`pModel`,`pModelParam`,`pMetric`,`pQuery`,`pQueryParam`,`pQuerySpeedSet`,`pLabelStore`,`pProjStatus`,`pNeedTest`,`pIniSet`) VALUES ('2',null,'2019-06-04 09:51:15','','Text Data','Multi class','2','方法1','Regression','','Accuracy','Random','','set 1','csv','-1',0,0) [ RunTime:0.000212s ]
+ERR: 1048:Column 'uId' cannot be null
+ [ SQL语句 ] : INSERT INTO `tp_project_info` (`pName`,`uId`,`pCreatTime`,`pRemark`,`pDataType`,`pSignType`,`pLabelType`,`pFeaMethod`,`pModel`,`pModelParam`,`pMetric`,`pQuery`,`pQueryParam`,`pQuerySpeedSet`,`pLabelStore`,`pProjStatus`,`pNeedTest`,`pIniSet`) VALUES ('2',null,'2019-06-04 09:51:15','','Text Data','Multi class','2','方法1','Regression','','Accuracy','Random','','set 1','csv','-1',0,0)
+SQL: SHOW COLUMNS FROM `tp_project_list` [ RunTime:0.000556s ]
+SQL: INSERT INTO `tp_project_list` (`pId`,`pName`,`pRemark`,`uId`,`uName`,`uImgSrc`,`isCreater`,`uJoinTime`) VALUES (0,'2','',null,null,null,1,'2019-06-04 09:51:15') [ RunTime:0.000135s ]
+ERR: 1048:Column 'uId' cannot be null
+ [ SQL语句 ] : INSERT INTO `tp_project_list` (`pId`,`pName`,`pRemark`,`uId`,`uName`,`uImgSrc`,`isCreater`,`uJoinTime`) VALUES (0,'2','',null,null,null,1,'2019-06-04 09:51:15')
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000812s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000894s ]
+
+[ 2019-06-04T09:59:13+08:00 ] ::1 /Home/ProjectApi/creatProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001178s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000590s ]
+SQL: SELECT * FROM `tp_user` WHERE `uToken` = 'undefined' ORDER BY uToken LIMIT 1   [ RunTime:0.000237s ]
+SQL: SHOW COLUMNS FROM `tp_project_info` [ RunTime:0.000566s ]
+SQL: INSERT INTO `tp_project_info` (`pName`,`uId`,`pCreatTime`,`pRemark`,`pDataType`,`pSignType`,`pLabelType`,`pFeaMethod`,`pModel`,`pModelParam`,`pMetric`,`pQuery`,`pQueryParam`,`pQuerySpeedSet`,`pLabelStore`,`pProjStatus`,`pNeedTest`,`pIniSet`) VALUES ('2',null,'2019-06-04 09:59:13','2','Text Data','Multi class','2','方法1','Regression','','Accuracy','Random','','set 1','csv','-1',0,0) [ RunTime:0.000254s ]
+ERR: 1048:Column 'uId' cannot be null
+ [ SQL语句 ] : INSERT INTO `tp_project_info` (`pName`,`uId`,`pCreatTime`,`pRemark`,`pDataType`,`pSignType`,`pLabelType`,`pFeaMethod`,`pModel`,`pModelParam`,`pMetric`,`pQuery`,`pQueryParam`,`pQuerySpeedSet`,`pLabelStore`,`pProjStatus`,`pNeedTest`,`pIniSet`) VALUES ('2',null,'2019-06-04 09:59:13','2','Text Data','Multi class','2','方法1','Regression','','Accuracy','Random','','set 1','csv','-1',0,0)
+SQL: SHOW COLUMNS FROM `tp_project_list` [ RunTime:0.000676s ]
+SQL: INSERT INTO `tp_project_list` (`pId`,`pName`,`pRemark`,`uId`,`uName`,`uImgSrc`,`isCreater`,`uJoinTime`) VALUES (0,'2','2',null,null,null,1,'2019-06-04 09:59:13') [ RunTime:0.000173s ]
+ERR: 1048:Column 'uId' cannot be null
+ [ SQL语句 ] : INSERT INTO `tp_project_list` (`pId`,`pName`,`pRemark`,`uId`,`uName`,`uImgSrc`,`isCreater`,`uJoinTime`) VALUES (0,'2','2',null,null,null,1,'2019-06-04 09:59:13')
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001211s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001295s ]
+
+[ 2019-06-04T10:01:05+08:00 ] ::1 /Home/ProjectApi/creatProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000984s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000541s ]
+SQL: SELECT * FROM `tp_user` WHERE `uToken` = 'undefined' ORDER BY uToken LIMIT 1   [ RunTime:0.000204s ]
+SQL: SHOW COLUMNS FROM `tp_project_info` [ RunTime:0.000560s ]
+SQL: INSERT INTO `tp_project_info` (`pName`,`uId`,`pCreatTime`,`pRemark`,`pDataType`,`pSignType`,`pLabelType`,`pFeaMethod`,`pModel`,`pModelParam`,`pMetric`,`pQuery`,`pQueryParam`,`pQuerySpeedSet`,`pLabelStore`,`pProjStatus`,`pNeedTest`,`pIniSet`) VALUES ('2',null,'2019-06-04 10:01:05','2','Text Data','Multi class','2','方法1','Regression','2','Accuracy','Random','2','set 1','csv','-1',0,0) [ RunTime:0.000177s ]
+ERR: 1048:Column 'uId' cannot be null
+ [ SQL语句 ] : INSERT INTO `tp_project_info` (`pName`,`uId`,`pCreatTime`,`pRemark`,`pDataType`,`pSignType`,`pLabelType`,`pFeaMethod`,`pModel`,`pModelParam`,`pMetric`,`pQuery`,`pQueryParam`,`pQuerySpeedSet`,`pLabelStore`,`pProjStatus`,`pNeedTest`,`pIniSet`) VALUES ('2',null,'2019-06-04 10:01:05','2','Text Data','Multi class','2','方法1','Regression','2','Accuracy','Random','2','set 1','csv','-1',0,0)
+SQL: SHOW COLUMNS FROM `tp_project_list` [ RunTime:0.000518s ]
+SQL: INSERT INTO `tp_project_list` (`pId`,`pName`,`pRemark`,`uId`,`uName`,`uImgSrc`,`isCreater`,`uJoinTime`) VALUES (0,'2','2',null,null,null,1,'2019-06-04 10:01:05') [ RunTime:0.000162s ]
+ERR: 1048:Column 'uId' cannot be null
+ [ SQL语句 ] : INSERT INTO `tp_project_list` (`pId`,`pName`,`pRemark`,`uId`,`uName`,`uImgSrc`,`isCreater`,`uJoinTime`) VALUES (0,'2','2',null,null,null,1,'2019-06-04 10:01:05')
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000814s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000896s ]
+
+[ 2019-06-04T10:01:40+08:00 ] ::1 /Home/ProjectApi/creatProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000748s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001574s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001685s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000581s ]
+SQL: SELECT * FROM `tp_user` WHERE `uToken` = 'undefined' ORDER BY uToken LIMIT 1   [ RunTime:0.000240s ]
+SQL: SHOW COLUMNS FROM `tp_project_info` [ RunTime:0.000646s ]
+SQL: INSERT INTO `tp_project_info` (`pName`,`uId`,`pCreatTime`,`pRemark`,`pDataType`,`pSignType`,`pLabelType`,`pFeaMethod`,`pModel`,`pModelParam`,`pMetric`,`pQuery`,`pQueryParam`,`pQuerySpeedSet`,`pLabelStore`,`pProjStatus`,`pNeedTest`,`pIniSet`) VALUES ('2',null,'2019-06-04 10:01:40','2','Text Data','Multi class','2','方法1','Regression','2','Accuracy','Random','2','set 1','csv','-1',0,0) [ RunTime:0.000196s ]
+ERR: 1048:Column 'uId' cannot be null
+ [ SQL语句 ] : INSERT INTO `tp_project_info` (`pName`,`uId`,`pCreatTime`,`pRemark`,`pDataType`,`pSignType`,`pLabelType`,`pFeaMethod`,`pModel`,`pModelParam`,`pMetric`,`pQuery`,`pQueryParam`,`pQuerySpeedSet`,`pLabelStore`,`pProjStatus`,`pNeedTest`,`pIniSet`) VALUES ('2',null,'2019-06-04 10:01:40','2','Text Data','Multi class','2','方法1','Regression','2','Accuracy','Random','2','set 1','csv','-1',0,0)
+
+[ 2019-06-04T10:03:43+08:00 ] ::1 /Home/LogApi/checkNameandMail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000468s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000975s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000558s ]
+SQL: SELECT * FROM `tp_user` WHERE `uName` = 'kid' ORDER BY uId LIMIT 1   [ RunTime:0.000221s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000873s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000957s ]
+
+[ 2019-06-04T10:03:46+08:00 ] ::1 /Home/LogApi/checkPassAndName
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000707s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000513s ]
+SQL: SELECT * FROM `tp_user` WHERE `uName` = 'kid' ORDER BY uId LIMIT 1   [ RunTime:0.000233s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.009549s ]
+INFO: [ app_end ] --END-- [ RunTime:0.009645s ]
+
+[ 2019-06-04T10:03:57+08:00 ] ::1 /Home/ProjectApi/creatProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000785s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000522s ]
+SQL: SELECT * FROM `tp_user` WHERE `uToken` = '7e92ef35f719edf7143d79d767455689' ORDER BY uToken LIMIT 1   [ RunTime:0.000237s ]
+SQL: SHOW COLUMNS FROM `tp_project_info` [ RunTime:0.000550s ]
+SQL: INSERT INTO `tp_project_info` (`pName`,`uId`,`pCreatTime`,`pRemark`,`pDataType`,`pSignType`,`pLabelType`,`pFeaMethod`,`pModel`,`pModelParam`,`pMetric`,`pQuery`,`pQueryParam`,`pQuerySpeedSet`,`pLabelStore`,`pProjStatus`,`pNeedTest`,`pIniSet`) VALUES ('2',9,'2019-06-04 10:03:57','2','Text Data','Multi class','1','方法1','Regression','','Accuracy','Random','','set 1','csv','-1',0,0) [ RunTime:0.000216s ]
+
+[ 2019-06-04T10:04:43+08:00 ] ::1 /Home/ProjectApi/creatProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000476s ]
+SQL: SELECT * FROM `tp_user` WHERE `uToken` = '7e92ef35f719edf7143d79d767455689' ORDER BY uToken LIMIT 1   [ RunTime:0.000207s ]
+SQL: SHOW COLUMNS FROM `tp_project_info` [ RunTime:0.000446s ]
+SQL: INSERT INTO `tp_project_info` (`pName`,`uId`,`pCreatTime`,`pRemark`,`pDataType`,`pSignType`,`pLabelType`,`pFeaMethod`,`pModel`,`pModelParam`,`pMetric`,`pQuery`,`pQueryParam`,`pQuerySpeedSet`,`pLabelStore`,`pProjStatus`,`pNeedTest`,`pIniSet`) VALUES ('2',9,'2019-06-04 10:04:43','2','Text Data','Multi class','2','方法1','Regression','2','Accuracy','Random','','set 1','csv','-1',0,0) [ RunTime:0.000231s ]
+SQL: SHOW COLUMNS FROM `tp_project_list` [ RunTime:0.000377s ]
+SQL: INSERT INTO `tp_project_list` (`pId`,`pName`,`pRemark`,`uId`,`uName`,`uImgSrc`,`isCreater`,`uJoinTime`) VALUES (3,'2','2',9,'kid',null,1,'2019-06-04 10:04:43') [ RunTime:0.000183s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000788s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000871s ]
+
+[ 2019-06-04T10:11:43+08:00 ] ::1 /Home/ProjectApi/creatProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000986s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000636s ]
+SQL: SELECT * FROM `tp_user` WHERE `uToken` = '7e92ef35f719edf7143d79d767455689' ORDER BY uToken LIMIT 1   [ RunTime:0.000280s ]
+SQL: SHOW COLUMNS FROM `tp_project_info` [ RunTime:0.000628s ]
+SQL: SELECT * FROM `tp_project_info` WHERE `uId` = 9 AND `pName` = '1' ORDER BY pId LIMIT 1   [ RunTime:0.000248s ]
+
+[ 2019-06-04T10:11:48+08:00 ] ::1 /Home/ProjectApi/creatProject
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000699s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000564s ]
+SQL: SELECT * FROM `tp_user` WHERE `uToken` = '7e92ef35f719edf7143d79d767455689' ORDER BY uToken LIMIT 1   [ RunTime:0.000261s ]
+SQL: SHOW COLUMNS FROM `tp_project_info` [ RunTime:0.000549s ]
+SQL: SELECT * FROM `tp_project_info` WHERE `uId` = 9 AND `pName` = '3' ORDER BY pId LIMIT 1   [ RunTime:0.000239s ]
+SQL: SHOW COLUMNS FROM `tp_project_info` [ RunTime:0.000444s ]
+SQL: INSERT INTO `tp_project_info` (`pName`,`uId`,`pCreatTime`,`pRemark`,`pDataType`,`pSignType`,`pLabelType`,`pFeaMethod`,`pModel`,`pModelParam`,`pMetric`,`pQuery`,`pQueryParam`,`pQuerySpeedSet`,`pLabelStore`,`pProjStatus`,`pNeedTest`,`pIniSet`) VALUES ('3',9,'2019-06-04 10:11:48','1','Text Data','Multi class','1','方法1','Regression','','Accuracy','Random','','set 1','csv','-1',0,0) [ RunTime:0.000291s ]
+SQL: SHOW COLUMNS FROM `tp_project_list` [ RunTime:0.000610s ]
+SQL: INSERT INTO `tp_project_list` (`pId`,`pName`,`pRemark`,`uId`,`uName`,`uImgSrc`,`isCreater`,`uJoinTime`) VALUES (4,'3','1',9,'kid',null,1,'2019-06-04 10:11:48') [ RunTime:0.000220s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000825s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000914s ]
+
+[ 2019-06-04T18:17:31+08:00 ] ::1 /Home/ProjectApi/getMyProjects
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000621s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001219s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.001854s ]
+SQL: SELECT * FROM `tp_user` WHERE `uToken` = '7e92ef35f719edf7143d79d767455689' ORDER BY uToken LIMIT 1   [ RunTime:0.000335s ]
+SQL: SHOW COLUMNS FROM `tp_project_list` [ RunTime:0.000541s ]
+SQL: SELECT * FROM `tp_project_list` WHERE `uId` = 9 ORDER BY uJoinTime desc  [ RunTime:0.000329s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000902s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000996s ]
+
+[ 2019-06-04T18:17:41+08:00 ] ::1 /Home/ProjectApi/getMyProjects
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000384s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000782s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000889s ]
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead E:\nkp\wamp64\www\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `tp_user` [ RunTime:0.000723s ]
+SQL: SELECT * FROM `tp_user` WHERE `uToken` = '7e92ef35f719edf7143d79d767455689' ORDER BY uToken LIMIT 1   [ RunTime:0.000265s ]
+SQL: SHOW COLUMNS FROM `tp_project_list` [ RunTime:0.000570s ]
+SQL: SELECT * FROM `tp_project_list` WHERE `uId` = 9 ORDER BY uJoinTime desc  [ RunTime:0.000237s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000845s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000954s ]
+
