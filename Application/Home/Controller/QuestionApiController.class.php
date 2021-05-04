@@ -4,16 +4,13 @@ use Think\Controller;
 header('Access-Control-Allow-Origin:*');  
 header('Access-Control-Allow-Methods:GET, POST, OPTIONS');        //跨域
 
-//实现功能有
-	// 1.忘记密码，通过邮箱验证码来更改密码但是只支持账号密码登录
-	// 2.判断用户名/邮箱是否存在
-	// 3.验证账号密码正确
-	// 4.注销(这个可以在前端)  将token置空
+
 class LogApiController extends Controller {
 	public function test(){
 		echo "successful Question_api test!";
 	}
 
+	# 问问题
 	public function haveQuestion(){
 		if($_POST['token']==""){
             $return['state'] = 'error';
@@ -60,6 +57,38 @@ class LogApiController extends Controller {
 
             $return['state'] = 'success';
             $return['data'] = $data;
+            $return = json_encode($return);
+            echo $return;
+		}
+	}
+
+	# 回答问题
+	public function answerQuestion(){
+		if($_POST['token']==""){
+            $return['state'] = 'error';
+            $return['info'] = "Please login again if authentication fails!";
+            $return = json_encode($return);
+            echo $return;
+        }
+        else{
+            //插入答案
+            $data_arr['uId'] = $_POST['uId'];
+            $data_arr['questionId'] = $_POST['questionId'];
+            $data_arr['answer_content'] = $_POST['answer_content'];
+            $data_arr["time"] = date ( 'Y-m-d H:i:s', time () );
+            
+            $data = D ( 'answer_list' );
+            if(!$data->create($data_arr)){
+                $return['state'] = 'error';
+                $return['info'] = "Network Error! Refresh and Retry!";
+                $return = json_encode($return);
+                echo $return;
+                die();
+            }else{
+                $data->add();
+            }
+            $return['state'] = 'success';
+            $return['info'] = 'Successful!';
             $return = json_encode($return);
             echo $return;
 		}
